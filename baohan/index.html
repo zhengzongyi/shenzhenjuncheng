@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>保函查询</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="page-header">
+      <div class="logo">
+        竣成担保投资
+      </div>
+    </div>
+    <div class="page-body">
+      <div class="query-form" id="query-form">
+        <h2 class="form-title">保函查询</h1>
+        <div class="form-row">
+          <input type="text" class="form-control" id="input-number" placeholder="保函编号" />
+        </div>
+        <div class="form-row">
+          <input type="text" id="input-user" class="form-control" placeholder="申请人" />
+        </div>
+        <div class="form-row">
+          <button class="form-control" id="submit-button">查询</button>
+        </div>
+        <div class="query-tips">
+          <h4>查询须知</h4>
+          <p>1、本系统可提供保函真伪查询 </p>
+          <p>2、企业名称请输入全称，参见保函正文说明 </p>
+          <p>3、如需保函扫描件请联系业务经办客户经理 </p>
+          <p>4、如有异议请联系业务经办客户经理或保函办理机构 </p>
+        </div>
+      </div>
+
+      <div class="query-resul" id="query-result" style="display: none">
+        <div class="query-result-nav">
+          <a href="#" id="link-query">保函查询</a> &gt;  
+          <span class="current">保函内容</span>
+        </div>
+        <div class="query-result-content" id="query-result-content">
+          <!-- <h4>广州百能建筑科技有限公司</h4>
+          <p>保函编号:2023071808735</p>
+          <p>保函类型:履约保函</p>
+          <p>受益人:上海建工集团股份有限公司</p>
+          <p>被保证人:广州百能建筑科技有限公司</p>
+          <p>项目名称:三亚市妇幼保健院二期项目设计、施工总承包(EPC)防水工程专业分包合同</p>
+          <p>担保金额:人民币柒拾贰万壹仟伍佰玖拾陆元叁角壹分(大写)￥721,596.31元(小写)</p>
+          <p>开立日期:2023年07月18日</p> -->
+        </div>
+        <button class="result-return-button" id="reset-content-button">返回</button>
+      </div>
+    </div>
+    <div class="page-footer">
+      <div class="copyright">
+        <!-- TODO -->
+        Copyright © 2021- 2025&nbsp; <br />深圳市竣成非融资性担保有限公司 版权所有&nbsp;<a href="#" target="_self"><!-- 粤ICP备2002121号 </a> -->
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/zepto.min.js"></script>
+  <script src="./js/md5.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>
