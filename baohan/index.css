@@ -33,6 +33,17 @@ input, textarea, select {
   font-size: 14px;
 }
 
+.page-header .logo span {
+  display: none;
+}
+
+.page-header .logo img {
+  display: block;
+  height: 50px;
+  width: 134px;
+  border: 0;
+}
+
 .page-body {
   padding: 0 20px 70px;
   max-width: 780px;
